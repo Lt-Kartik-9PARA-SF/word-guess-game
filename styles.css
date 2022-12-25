@@ -1,0 +1,46 @@
+body,
+h1,
+h3 {
+  text-align: center;
+}
+body{
+    background-image: url('https://is3-ssl.mzstatic.com/image/thumb/Purple71/v4/81/66/ec/8166ec48-3566-ea7e-f07e-ef54e4777a81/source/512x512bb.jpg');
+    background-repeat: no-repeat;
+    background-position: 26rem 9rem;
+}
+.letter {
+  border: 1px solid;
+  height: 60px;
+  width: 60px;
+  padding: 5px;
+  text-align: center;
+  font-size: 30px;
+  margin: auto;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-transform: uppercase;
+}
+
+.word {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.filled-box {
+  border: 2px solid black;
+}
+input{
+  width: 95%;
+  height: 95%;
+  margin: 0;
+  padding: 0;
+  font-size: x-large;
+  text-align: center;
+}
+input:focus{
+    background-color:yellow;
+}
